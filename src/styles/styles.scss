@@ -1,0 +1,8 @@
+// sass no recarga la aplicación web, es como el hot reload de flutter
+
+@import './base/settings';
+@import './base/base';
+@import './components/auth';
+@import './components/buttons';
+@import './components/links';
+@import './components/journal';
