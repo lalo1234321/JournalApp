@@ -9,7 +9,7 @@
     color:white;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     padding-left: 10px;
     padding-right: 10px;
     width: 450px;
@@ -44,8 +44,7 @@
 .journal__entries {
     flex:1 1 auto;
     margin-top: 30px;
-    overflow-y: scroll;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 .journal__entry {
@@ -55,10 +54,34 @@
     display:flex;
     margin-bottom: 10px;
     overflow: hidden;
+
 }
 
 .journal__entry-picture {
     height:75px;
     width:75px;
     
+}
+
+.journal__entry-body {
+    padding: 10px;
+}
+
+.journal__entry-title {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.journal__entry-content {
+    font-size: 10px;
+}
+
+.journal__entry-date-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+    padding-right: 5px;
 }
