@@ -55,6 +55,9 @@
     margin-bottom: 10px;
     overflow: hidden;
 
+    &:hover {
+        background-color: darken($color: white, $amount: 15);
+    }
 }
 
 .journal__entry-picture {
@@ -81,7 +84,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-size: 12px;
     justify-content: center;
     padding-right: 5px;
+}
+
+.journal__entry-date-box span {
+    font-size: 12px;
+
 }
